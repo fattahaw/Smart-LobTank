@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".atur_murky">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top|center_horizontal">
+        <TextView
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ubah Konfigurasi Tingkat Kekeruhan"
+            android:gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="320dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/staticMurkyNow"
+            android:layout_width="fill_parent"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:layout_gravity="left"
+            android:textSize="18sp"
+            android:text="Lv. Keruh Now :" />
+
+        <TextView
+            android:id="@+id/MurkyNow"
+            android:layout_width="fill_parent"
+            android:layout_weight="2"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"
+            android:textSize="18sp"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="300dp"
+        android:layout_gravity="center"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/staticMurkyMax"
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:text="Nilai Keruh Max :"
+            android:textSize="18sp"
+            android:layout_gravity="left"/>
+
+        <EditText
+            android:id="@+id/murkyMax"
+            android:layout_width="match_parent"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:layout_gravity="right"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ubahMurkyOke"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:text="Ubah Kekeruhan"/>
+
+    </LinearLayout>
+
+</LinearLayout>

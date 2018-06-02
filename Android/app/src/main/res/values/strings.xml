@@ -1,0 +1,29 @@
+<resources>
+    <string name="about_us">Aplikasi ini disusun oleh :\n\n
+        \t\t\tAnggi Harumanto - 1506673744\n
+        \t\t\t\t\tEmail : anggiharumanto@gmail.com\n
+        \t\t\t\t\tNo HP : 085781296461\n\n\n
+        \t\t\tJohanes Gunawan - 1506725136\n
+        \t\t\t\t\tEmail : test904848@gmail.com\n
+        \t\t\t\t\tNo HP : 081287262888\n\n\n
+        \t\t\tFattah Abdul Wahab - 1506673681\n
+        \t\t\t\t\tEmail : fattahaw@gmail.com\n
+        \t\t\t\t\tNo HP : 081311678858\n
+        \n\n\n\t\t\t\t\t\tTeknik Komputer - Fakultas Teknik
+        \n\n\t\t\t\t\t\t\t\t\t\t\tUniversitas Indonesia</string>
+    <string name="app_name">Smart Lobtank</string>
+    <string name="app_name_awal">Smart Lobtank\nList Menu</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="help">
+        Aplikasi ini merupakan sebuah aplikasi yang digunakan untuk memantau keadaan
+        Water Tank tempat memelihara lobster, diantaranya yaitu, mengecek kondisi
+        dari pH, suhu dan kekeruhan air. Selanjutnya yaitu digunakan untuk mengecek
+        apakah sang lobster berganti kulit atau tidak</string>
+
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="manpro.smart_lobtank">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/lobtank_launcher"
+        android:label="Smart LobTank"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".suhu" />
+        <activity android:name=".cek_ph" />
+        <activity android:name=".kekeruhan_air" />
+        <activity android:name=".bantuan" />
+        <activity android:name=".setting" />
+        <activity android:name=".about" />
+        <activity android:name=".atur_suhu" />
+        <activity android:name=".atur_ph" />
+        <activity android:name=".atur_murky"></activity>
+    </application>
+
+</manifest>
