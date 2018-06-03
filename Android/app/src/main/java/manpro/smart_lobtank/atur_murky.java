@@ -13,11 +13,4 @@ public class atur_murky extends AppCompatActivity {
     }
 
 
-    @Override
-    public void onBackPressed()
-    {
-        Intent intent = new Intent(atur_murky.this, MainActivity.class);
-        startActivity(intent);
-    }
-
 }

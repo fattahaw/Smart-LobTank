@@ -12,10 +12,4 @@ public class atur_suhu extends AppCompatActivity {
         setContentView(R.layout.activity_atur_suhu);
     }
 
-    @Override
-    public void onBackPressed()
-    {
-        Intent intent = new Intent(atur_suhu.this, MainActivity.class);
-        startActivity(intent);
-    }
 }
